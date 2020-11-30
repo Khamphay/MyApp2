@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_margin="5dp">
+<!--        <ImageView-->
+<!--            android:id="@+id/imgFlag"-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="0.5"/>-->
+        <TextView
+            android:id="@+id/txtVItem1"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"/>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/txtVItem2"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000" />
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/txtVItem3"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

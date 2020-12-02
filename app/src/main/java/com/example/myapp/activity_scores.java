@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class activity_scores extends AppCompatActivity {
-    Button btsend, btSinglelist,btMultilist;
+    Button btsend, btSinglelist,btMultilist, btDevice;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +17,7 @@ public class activity_scores extends AppCompatActivity {
         btsend=findViewById(R.id.btSend);
         btSinglelist=findViewById(R.id.btSingleList);
         btMultilist=findViewById(R.id.btMultiList);
+        btDevice=findViewById(R.id.btDevice);
 
 
         btsend.setOnClickListener(new View.OnClickListener() {
@@ -43,5 +44,13 @@ public class activity_scores extends AppCompatActivity {
             }
         });
 
+        btDevice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ob=new Intent(activity_scores.this, activity_device.class);
+                startActivity(ob);
+                finish();
+            }
+        });
     }
 }

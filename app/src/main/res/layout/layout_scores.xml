@@ -33,5 +33,13 @@
             android:textAllCaps="false"
             android:layout_width="200dp"
             android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btDevice"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Devices"
+            android:textAllCaps="false"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </LinearLayout>

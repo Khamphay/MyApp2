@@ -26,6 +26,7 @@
         <activity android:name=".activity_singlelist"/>
         <activity android:name=".activity_multilist"/>
         <activity android:name=".activity_show_country_detail"/>
+        <activity android:name=".activity_device"/>
     </application>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />

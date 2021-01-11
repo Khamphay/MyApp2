@@ -1,4 +1,4 @@
-package com.example.myapp;
+package com.example.myapp.model;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,6 +15,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.example.myapp.R;
 
 import java.io.File;
 import java.io.IOException;
@@ -33,7 +35,7 @@ public class my_adater extends ArrayAdapter<String>{
     Context context;
 
       public  my_adater(Context context, String []str1, String []str2, String []str3){
-          super(context,R.layout.custom_multi_listview_item);
+          super(context, R.layout.custom_multi_listview_item);
           this.context=context;
           this.str1=str1;
           this.str2=str2;

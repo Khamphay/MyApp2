@@ -21,7 +21,6 @@ public class activity_viewdata extends AppCompatActivity {
         lbGender=findViewById(R.id.lbGender);
         lbTel=findViewById(R.id.lbTel);
 
-
         lbID.setText(data.getString("ID"));
         lbName.setText(data.getString("Name"));
         lbGender.setText(data.getString("Gender"));

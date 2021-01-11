@@ -1,10 +1,6 @@
-package com.example.myapp;
+package com.example.myapp.model;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
-import android.os.AsyncTask;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,11 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
+import com.example.myapp.R;
 
 public class MyArrayAdater extends ArrayAdapter<String> {
 
@@ -29,7 +21,7 @@ public class MyArrayAdater extends ArrayAdapter<String> {
     Context context;
 
     public  MyArrayAdater(Context context, String []str1, String []str2, int []imgPath){
-        super(context,R.layout.listview_item_flag);
+        super(context, R.layout.listview_item_flag);
         this.context=context;
         this.str1=str1;
         this.str2=str2;

@@ -41,5 +41,13 @@
             android:textAllCaps="false"
             android:layout_width="200dp"
             android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btNew"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Connect Sqlite"
+            android:textAllCaps="false"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </LinearLayout>

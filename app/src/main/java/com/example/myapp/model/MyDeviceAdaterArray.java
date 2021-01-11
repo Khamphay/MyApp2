@@ -1,4 +1,4 @@
-package com.example.myapp;
+package com.example.myapp.model;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,6 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.example.myapp.R;
+
 public class MyDeviceAdaterArray extends ArrayAdapter<String> {
     String []str1;
     int []imgPath;
@@ -18,7 +20,7 @@ public class MyDeviceAdaterArray extends ArrayAdapter<String> {
 
 
     public MyDeviceAdaterArray( Context context,String[] str1, int[] imgPath) {
-        super(context,R.layout.layout_spiner_device);
+        super(context, R.layout.layout_spiner_device);
         this.str1 = str1;
         this.imgPath = imgPath;
         this.context = context;

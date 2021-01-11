@@ -6,11 +6,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapp.model.MyDeviceAdaterArray;
 import com.example.myapp.model.listitem_arrayadater;
 
 public class activity_device  extends AppCompatActivity {

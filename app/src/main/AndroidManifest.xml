@@ -28,6 +28,8 @@
         <activity android:name=".activity_show_country_detail"/>
         <activity android:name=".activity_device"/>
         <activity android:name=".activity_device_detail"/>
+        <activity android:name=".activity_insert_sqlite"/>
+        <activity android:name=".activity_show_data_of_sqlite"/>
     </application>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
